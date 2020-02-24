@@ -1,0 +1,32 @@
+{
+  "name": "rpbot",
+  "version": "1.0.0",
+  "description": "A Discord roleplaying bot for Ena",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon",
+    "start": "node build/index.js",
+    "build": "rimraf ./build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dudex11c/RPBot.git"
+  },
+  "author": "Dudex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dudex11c/RPBot/issues"
+  },
+  "homepage": "https://github.com/Dudex11c/RPBot#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
